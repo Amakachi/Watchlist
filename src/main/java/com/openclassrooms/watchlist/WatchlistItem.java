@@ -8,13 +8,13 @@ public class WatchlistItem {
     private String comment;
 
 
-    public WatchlistItem(String title, String rating, String priority, String comment) {
+    public WatchlistItem(String title, String rating, String priority, String comment, Integer id) {
         super();
         this.title = title;
         this.rating = rating;
         this.priority = priority;
         this.comment = comment;
-        this.id = ++;
+        this.id = id;
     }
 
     public WatchlistItem() {
